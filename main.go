@@ -39,6 +39,7 @@ envars["pkg"] = strconv.Itoa(strings.Count(tostring(pkg),"\n"))
 
 info := `
 %s• usr:%s	%s@%s
+%s• os :%s	%s
 %s• shl:%s	%s
 %s• krn:%s	%s
 %s• pkg:%s	%s 
@@ -51,6 +52,7 @@ blocks2 := "[101m  [m[102m  [m[103m  [m[104m  [m[105m  [m[105m  [m "
 
 t := fmt.Sprintf(info,
 	c1,rs,envars["usr"],envars["hos"],
+	c1,rs,envars["os"],
 	c1,rs,envars["sh"],
 	c1,rs,envars["krn"],
 	c1,rs,envars["pkg"],blocks,blocks2)
