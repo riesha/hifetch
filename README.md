@@ -1,1 +1,3 @@
-## hi fetch
+## hifetch
+
+displays some info
