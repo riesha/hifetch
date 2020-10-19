@@ -47,8 +47,8 @@ info := `
  %s
  %s
 `
-blocks := "[41m  [m[42m  [m[43m  [m[44m  [m[45m  [m[46m  [m "
-blocks2 := "[101m  [m[102m  [m[103m  [m[104m  [m[105m  [m[105m  [m "
+blocks := "[41m  [m  [42m  [m  [43m  [m  [44m  [m  [45m  [m  [46m  [m "
+blocks2 := "[101m  [m  [102m  [m  [103m  [m  [104m  [m  [105m  [m  [105m  [m "
 
 t := fmt.Sprintf(info,
 	c1,rs,envars["usr"],envars["hos"],
